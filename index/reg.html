@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>母婴之家-reg</title>
+	<link rel="stylesheet" href="../css/reg.css">
+</head>
+<body>
+	<div id="site">
+
+	<nav class="w">
+		<ul class="ul1 left">
+			<li class="active left"><a>母婴之家</a></li>
+			<li class="sec left"><a>母婴海淘</a></li>
+			<li class="phone left"><a><span></span>手机版</a></li>
+		</ul>
+		<ul class="ul2 right">
+			<li class="one left"><span>欢迎来到母婴之家！</span></li>
+			<li class="two left"><a href="#" id="loginBtn">[登录]</a></li>
+			<li class="three left"><a href="#" id="regBtn">[免费注册]</a></li>
+			<li class="four left"><a href="#">我的订单<span></span></a></li>
+			<li class="five left"><a href="#">客户服务<span></span></a></li>
+			<li class="six left"><a href="#">商务合作</a></li>
+			<li class="seven left"><a href="#">分类导航</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div id="site3">
+		<div class="bar2 w">
+		<h1 class="left"><img src="http://static.boodoll.cn/mall/v16/images/newIndex/logo29new.png"></h1>
+		</div>
+	</div>
+	<div id="regMain">
+		<ul class="left">
+		<div class="listDiv">
+			<li class="listLi1 reg-active"><i></i><span>注册</span></li>
+			<li class="listLi2"><i></i><sapn>登录</sapn></li>
+		</div>
+		</ul>
+		<div class="regContent">
+			<div class="sign left">
+			<form method="POST" name="form" id="regForm">
+				<ul>
+					<li><label class="emailLabel">手机号:</label><div class="emailDiv">
+					<form action="isAjax.php" method="POST"><input type="text" id="number" placeholder="请输入手机号" maxlength="50" name="number"></form>
+					<i class="email-icon"></i><p id="warn1"><b></b><span>手机格式不对,请重新输入</span></p></div><div id="tips" style="color:red;"></div>
+					</li>
+					<li><label class="mimaLabel">请设置密码:</label><div class="mimaDiv"><input type="password" id="password" placeholder="请输入密码" maxlength="20" name="password1"><i class="passowrd-icon"></i><p id="warn2"><b></b><span>密码长度限制为6-20位字符</span></p></div>
+					</li>
+					<li><label class="mima2Label">请设置密码:</label><div class="mima2Div"><input type="password" id="password2" placeholder="请输入密码" maxlength="20" name="password2"><i class="passowrd-icon"></i><p id="warn3"><b></b><span>重复密码不能为空，请确认</span></p></div>
+					</li>
+					<li><label class="testLabel">点击验证:</label><div class="testDiv"><span class=""></span><div id="testBtn"></div><a class="gee-logo"></a></div></li>
+					<li><label class="mesLabel">短信验证:</label><div class="messageDiv"><input type="text" id="message" name="message" maxlength="6" class="left"><input type="button" id="get-mobile-code"><br/><div style="display:none;font-size:14px;" id="div2">短信已发出<span id="text1"></span>后重试</div></div>
+					</li>
+					<li><div class="agree"><input type="checkbox" id="agreement" name="agreement" checked="checked"><span>阅读并同意"母婴之家网站用户协议"</span></div></li>
+					<li><div class="subDiv"><input type="submit" id="reg-btn" name="reg-btn"></div></li>
+				</ul>
+			</form>
+			</div>
+			<div class="xiazai right" >
+		<img src="http://img.muyingzhijia.com/product/web/toutu/150211-340x300-2.jpg" class="right">
+	</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/reg.js"></script>
+</body>
+</html>
